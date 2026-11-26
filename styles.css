@@ -35,11 +35,6 @@
     font-size: 10px;
   }
 .footer-brand img {
-  width: 240px !important;
-  max-width: 100% !important;
-  max-height: 150px !important;
-  height: auto !important;
-  object-fit: contain;
   background: transparent !important;
   padding: 0 !important;
   border: 0 !important;
