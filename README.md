@@ -21,7 +21,11 @@ Su propósito es facilitar el encuentro entre quienes ofrecen experiencias, cono
 
 **Presencia Básica:** gratuita, sujeta a revisión y aprobación de Movida.
 
-**Presencia Destacada:** modalidad comercial paga, con mayor exposición, presentación ampliada y herramientas de contacto.
+**Presencia Destacada:** $20.000 por mes o $200.000 por 12 meses. Incluye mayor exposición, presentación ampliada y herramientas de contacto.
+
+**Movida en Video:** $50.000 por única vez. El profesional entrega el video completamente grabado y editado, de entre 3 y 5 minutos como máximo, listo para publicar. Movida no graba ni edita. Una vez revisado y aprobado, se publica en el canal oficial de YouTube de Movida y se integra a la Guía.
+
+**Propuesta combinada Presencia Destacada + Movida en Video:** $65.000 el primer mes. Incluye el primer mes de Presencia Destacada y el servicio audiovisual por única vez. Desde el segundo mes, la renovación es de $20.000 mensuales únicamente por Presencia Destacada; el video no vuelve a cobrarse.
 
 ## Espacio audiovisual
 
