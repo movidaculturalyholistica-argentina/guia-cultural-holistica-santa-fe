@@ -35,3 +35,44 @@
     font-size: 10px;
   }
 }
+
+/* PLANES COMERCIALES Y MOViDA EN VIDEO */
+.plan-grid-four{grid-template-columns:repeat(2,minmax(0,1fr));max-width:1040px}
+.plan-grid-four .plan-card{display:flex;flex-direction:column}
+.plan-grid-four .plan-card ul{flex:1}
+.plan-card .annual{min-height:22px}
+.plan-video{background:#fbf7f0}
+.plan-combo{background:#f1f4ec;border-color:#aebfa5}
+.plan-combo .price{font-size:34px}
+.video-section-expanded{grid-template-columns:minmax(260px,.78fr) minmax(0,1.22fr);gap:clamp(28px,5vw,70px);padding:76px 10%;align-items:center}
+.video-poster{width:100%;max-width:390px;aspect-ratio:9/16;justify-self:center;position:relative;overflow:hidden;border-radius:8px;background:radial-gradient(circle at 65% 28%,#d9a17d 0 15%,transparent 16%),linear-gradient(155deg,#344d3e,#8d9b78 55%,#d9b99d);box-shadow:0 20px 55px #25382e30}
+.video-poster:before{content:"";position:absolute;inset:8% 9%;border:1px solid #ffffff80;border-radius:4px}
+.video-poster a{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:20px;color:white;text-align:center;padding:24px}
+.play-button{width:66px;height:66px;border-radius:50%;display:grid;place-items:center;padding-left:4px;background:#c66f50;color:white;font-size:23px;box-shadow:0 5px 22px #0003}
+.poster-caption{max-width:230px;font:800 clamp(19px,2vw,27px)/1.2 var(--display);letter-spacing:1px;text-shadow:0 2px 12px #0007}
+.video-copy .eyebrow{margin-bottom:12px}
+.video-copy h2{font-size:clamp(36px,4vw,52px)}
+.video-copy>p{max-width:650px}
+.video-requirements{padding-left:19px;margin:20px 0;color:#586457;font-size:12px}
+.video-requirements li{padding:5px 0}
+.video-requirements li::marker{color:var(--terra)}
+.video-note{font-size:11px!important;color:#77796d}
+.video-actions{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:22px}
+@media(max-width:850px){
+ .plan-grid-four{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .video-section-expanded{grid-template-columns:minmax(210px,.7fr) minmax(0,1.3fr);padding:58px 7%;gap:30px}
+ .video-poster{max-width:300px}
+}
+@media(max-width:620px){
+ .plan-grid-four{grid-template-columns:1fr}
+ .video-section-expanded{display:flex;flex-direction:column;padding:54px 7%;align-items:stretch}
+ .video-poster{width:min(100%,340px);max-width:none;align-self:center}
+ .video-copy h2{font-size:37px}
+ .video-actions{align-items:flex-start;flex-direction:column;gap:16px}
+}
+@media(max-width:380px){
+ .plan-grid-four .plan-card{padding:23px}
+ .video-poster{width:100%}
+ .video-copy h2{font-size:33px}
+ .video-requirements{font-size:11px}
+}
